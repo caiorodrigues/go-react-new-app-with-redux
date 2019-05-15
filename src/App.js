@@ -5,9 +5,11 @@ import './config/ReactotronConfig';
 
 import store from './store';
 
+import Routes from './routes';
+
 const App = () => (
   <Provider store={store}>
-    <h1>Hello World</h1>
+    <Routes />
   </Provider>
 );
 
